@@ -1,0 +1,30 @@
+{
+  "name": "base-vote-dapp",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Voting dApp (A/B) pour Base Sepolia (Solidity + Hardhat + Frontend ethers.js).",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:base": "hardhat run scripts/deploy.js --network base_sepolia"
+  },
+  "keywords": [
+    "base",
+    "coinbase",
+    "sepolia",
+    "web3",
+    "solidity",
+    "hardhat",
+    "ethers",
+    "vote",
+    "poll",
+    "dapp"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "ethers": "^6.7.0"
+  },
+  "license": "MIT"
+}
